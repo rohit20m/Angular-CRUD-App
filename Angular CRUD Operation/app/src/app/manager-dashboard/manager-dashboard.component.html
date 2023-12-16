@@ -1,0 +1,103 @@
+<nav class="navbar navbar-light bg-info">
+    <div class="container-fluid">
+        <h1 class="text-light">Manager CRUD Operation</h1>
+        <div class="d-flex">
+            <div class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#addEmployee" (click)="addManagerDetails()">Add Manager</div>
+            <div class="btn btn-danger" routerLink="/login">Logout</div>
+        </div>
+    </div>
+</nav>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Manager ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email ID</th>
+            <th scope="col">Mobile No.</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>row.id</td>
+            <td>row.firstName</td>
+            <td>row.lastName</td>
+            <td>row.emailID</td>
+            <td>row.mobileNumber</td>
+            <td>row.salary</td>
+            <td>
+                <div class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#addEmployee">Edit</div>
+                <div class="btn btn-danger">Delete</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="modal fade" id="addEmployee" tabindex="-1" aria-labelledby="addEmployeeModalLabel" aria-hidden="true" style="display:none">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Add Manager</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Edit Manager</h1>
+                <button type="button" class="btn-close" id="create-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" formControlName="firstName">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" formControlName="lastName">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="emailID" class="form-label">Email ID</label>
+                                <input type="email" class="form-control" id="emailID" placeholder="Enter Email ID" formControlName="emailID">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="mobileNumber" class="form-label">Mobile Number</label>
+                                <input type="text" class="form-control" id="mobileNumber" placeholder="Enter Mobile Number" formControlName="mobileNumber">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="salary" class="form-label">Salary</label>
+                                <input type="text" class="form-control" id="salary" placeholder="Enter Salary" formControlName="salary">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="row mt-3">
+                        <div class="col-4"></div>
+                        <div class="col-3"></div>
+                        <div class="col-5">
+                            <div class="d-flex float-end">
+                                <button type="button" id="cancel" class="btn btn-secondary me-2" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Add Manager</button>
+                                <button type="button" class="btn btn-primary">Update Manager</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

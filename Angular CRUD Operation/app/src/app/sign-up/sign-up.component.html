@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card p-5 pt-3">
+                <div class="text-center">
+                    <h1 class="text-light">Sign Up</h1>
+                </div>
+
+                <form [formGroup]="signUpForm" (ngSubmit)="signUp()">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label text-light">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your Full Name" formControlName="fullName">
+                        <span class="text-danger" *ngIf="signUpForm.controls['fullName'].dirty && signUpForm.hasError('required','fullName')">
+                            *Please Enter Full Name
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mobileNumber" class="form-label text-light">Mobile Number</label>
+                        <input type="text" class="form-control" id="mobileNumber" placeholder="Enter Mobile Number" formControlName="mobileNumber">
+                        <span class="text-danger" *ngIf="signUpForm.controls['mobileNumber'].dirty && signUpForm.hasError('required','mobileNumber')">
+                            *Please Enter Mobile Number
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="emailID" class="form-label text-light">Email address</label>
+                        <input type="email" class="form-control" id="emailID" placeholder="Enter Email Address" formControlName="emailID">
+                        <span class="text-danger" *ngIf="signUpForm.controls['emailID'].dirty && signUpForm.hasError('required','emailID')">
+                            *Please Enter Email Address
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label text-light">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password" formControlName="password">
+                        <span class="text-danger" *ngIf="signUpForm.controls['password'].dirty && signUpForm.hasError('required','password')">
+                            *Please Enter Password
+                        </span>
+                    </div>
+
+                    <!-- <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">I read and agreed to <code>Terms and condition</code></label>
+                    </div> -->
+
+                    <button type="submit" [disabled]="!signUpForm.valid" class="btn btn-primary form-control mt-3 mb-3">Sign Up</button>
+                </form>
+                <div class="text-center">
+                    <a routerLink="/login" class="text-light">Already registered? Click to Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

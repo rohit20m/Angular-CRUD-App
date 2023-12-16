@@ -1,0 +1,77 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Prasad",
+      "lastName": "Pillay",
+      "emailID": "prasad.pillay@alpha-ict.in",
+      "mobileNumber": "9075648542",
+      "salary": "1200000"
+    },
+    {
+      "id": 8,
+      "firstName": "Rohit",
+      "lastName": "Masale",
+      "emailID": "rohit.masale@alpha-ict.in",
+      "mobileNumber": "7028575139",
+      "salary": "400002"
+    },
+    {
+      "id": 9,
+      "firstName": "Sakshi",
+      "lastName": "Modhe",
+      "emailID": "sakshi.modhe@alpha-ict.in",
+      "mobileNumber": "9284485957",
+      "salary": "600000"
+    },
+    {
+      "id": 10,
+      "firstName": "Ashish",
+      "lastName": "Zade",
+      "emailID": "ashish.zade@alpha-ict.in",
+      "mobileNumber": "9028932819",
+      "salary": "89988"
+    }
+  ],
+  "comments": [
+    {
+      "fullName": "Rohit Anil Masale",
+      "mobileNumber": "7028575139",
+      "emailID": "rohit.masale@alpha-ict.in",
+      "password": "Alpha123#",
+      "id": 3
+    },
+    {
+      "fullName": "Prasad Shridhar Pillay",
+      "mobileNumber": "8421498248",
+      "emailID": "prasad.pillay@alpha-ict.in",
+      "password": "Alpha@PP01",
+      "id": 4
+    },
+    {
+      "fullName": "Sakshi Santosh Modhe",
+      "mobileNumber": "9284485957",
+      "emailID": "sakshi.modhe@alpha-ict.in",
+      "password": "Alpha@SM01",
+      "id": 5
+    },
+    {
+      "fullName": "Swagat Krishnaji Kakad",
+      "mobileNumber": "7888131375",
+      "emailID": "swagat.kakad@alpha-ict.in",
+      "password": "Alpha@SK01",
+      "id": 7
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "person": [
+    {
+      "id": 100,
+      "name": "John Doe",
+      "age": 30,
+      "email": "johndoe@example.com"
+    }
+  ]
+}
