@@ -1,126 +1,75 @@
 {
-  "posts": [
-    {
-      "id": 4,
-      "firstName": "Shrikant ",
-      "lastName": "More ",
-      "emailID": "shrikant.more@alpha-ict.in",
-      "mobileNumber": "9075648542",
-      "salary": "600000"
-    },
-    {
-      "id": 5,
-      "firstName": "Rohit",
-      "lastName": "Masale",
-      "emailID": "rohit.masale@alpha-ict.in",
-      "mobileNumber": "7028575139",
-      "salary": "100000"
-    },
-    {
-      "id": 6,
-      "firstName": "Prasad",
-      "lastName": "Pillay",
-      "emailID": "prasad.pillay@alpha-ict.in",
-      "mobileNumber": "8421498248",
-      "salary": "200000"
-    },
-    {
-      "id": 7,
-      "firstName": "Sakshi",
-      "lastName": "Modhe",
-      "emailID": "sakshi.modhe@alpha-ict.in",
-      "mobileNumber": "9284485957",
-      "salary": "300000"
-    },
-    {
-      "id": 8,
-      "firstName": "Ritik",
-      "lastName": "Bhambid",
-      "emailID": "ritik.bhambid@alpha-ict.in",
-      "mobileNumber": "4545",
-      "salary": "545454"
+    "posts": [{
+            "id": 4,
+            "firstName": "Alex ",
+            "lastName": "Johnson ",
+            "emailID": "alex.johnson@example.com",
+            "mobileNumber": "1111111111",
+            "salary": "600000"
+        },
+        {
+            "id": 5,
+            "firstName": "Emily",
+            "lastName": "Smith",
+            "emailID": "emily.smith@example.com",
+            "mobileNumber": "2222222222",
+            "salary": "100000`"
+        },
+        {
+            "id": 6,
+            "firstName": "Tony",
+            "lastName": "Stark",
+            "emailID": "tony.stark@example.com",
+            "mobileNumber": "3333333333",
+            "salary": "200000"
+        },
+        {
+            "id": 7,
+            "firstName": "Steve",
+            "lastName": "Roger",
+            "emailID": "steve.roger@example.com",
+            "mobileNumber": "4444444444",
+            "salary": "300000"
+        },
+        {
+            "id": 8,
+            "firstName": "Bruce",
+            "lastName": "Baner",
+            "emailID": "bruce.baner@example.com",
+            "mobileNumber": "5555555555",
+            "salary": "545454"
+        }
+    ],
+    "comments": [{
+            "fullName": "Alex Alexander Johnson",
+            "mobileNumber": "1111111111",
+            "emailID": "alex.johnson@example.com",
+            "password": "pwd@1234",
+            "id": 2
+        },
+        {
+            "fullName": "Emily Rose Smith",
+            "mobileNumber": "2222222222",
+            "emailID": "emily.smith@example.com",
+            "password": "pwd@5678",
+            "id": 3
+        },
+        {
+            "fullName": "Tony James Stark",
+            "mobileNumber": "3333333333",
+            "emailID": "tony.stark@example.com",
+            "password": "pwd@9101",
+            "id": 4
+        },
+        {
+            "fullName": "Steve Michael Roger",
+            "mobileNumber": "4444444444",
+            "emailID": "steve.roger@example.com",
+            "password": "pwd@1121",
+            "id": 5
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     }
-  ],
-  "comments": [
-    {
-      "fullName": "Rohit Anil Masale",
-      "mobileNumber": "7028575139",
-      "emailID": "rohit.masale@alpha-ict.in",
-      "password": "Alpha@RM01",
-      "id": 2
-    },
-    {
-      "fullName": "Prasad Shridhar Pillay",
-      "mobileNumber": "8421498248",
-      "emailID": "prasad.pillay@alpha-ict.in",
-      "password": "Alpha@PP01",
-      "id": 3
-    },
-    {
-      "fullName": "Ritik Nilesh Bhambid",
-      "mobileNumber": "9168141583",
-      "emailID": "ritik.bhambid@alpha-ict.in",
-      "password": "Alpha@RB01",
-      "id": 4
-    },
-    {
-      "fullName": "Swagat Krishnaji Kakad",
-      "mobileNumber": "7888131375",
-      "emailID": "swagat.kakad@alpha-ict.in",
-      "password": "Alpha@SK01",
-      "id": 5
-    },
-    {
-      "fullName": "Sakshi Modhe",
-      "mobileNumber": "9284485957",
-      "emailID": "sakshi.modhe@alpha-ict.in",
-      "password": "Alpha@SM01",
-      "id": 6
-    },
-    {
-      "fullName": "Hitesh Fuse",
-      "mobileNumber": "9767633676",
-      "emailID": "hitesh.fuse@alpha-ict.in",
-      "password": "Alpha@HF01",
-      "id": 7
-    },
-    {
-      "fullName": "",
-      "mobileNumber": "",
-      "emailID": "",
-      "password": "",
-      "id": 8
-    },
-    {
-      "fullName": "",
-      "mobileNumber": "",
-      "emailID": "",
-      "password": "",
-      "id": 9
-    },
-    {
-      "fullName": "",
-      "mobileNumber": "9028932819",
-      "emailID": "ashish.zade@alpha-ict.in",
-      "password": "Alpha@AZ01",
-      "id": 10
-    },
-    {
-      "fullName": "Rohit Anil Masale",
-      "mobileNumber": "7028575139",
-      "emailID": "rohit.masale@alpha-ict.in",
-      "password": "Alpha@RM01",
-      "id": 11
-    },
-    {
-      "fullName": "test",
-      "mobileNumber": "test",
-      "emailID": "test",
-      "password": "test",
-      "id": 12
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
 }
